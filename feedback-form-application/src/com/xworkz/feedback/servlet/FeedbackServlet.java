@@ -7,7 +7,7 @@ import javax.servlet.ServletResponse;
 import javax.servlet.annotation.WebServlet;
 import java.io.IOException;
 import java.io.PrintWriter;
-import java.io.Writer;
+
 
 @WebServlet(urlPatterns = "/submit")
 public class FeedbackServlet extends GenericServlet {
