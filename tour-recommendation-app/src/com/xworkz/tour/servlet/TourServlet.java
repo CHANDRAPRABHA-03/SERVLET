@@ -21,6 +21,11 @@ public class TourServlet extends GenericServlet {
         }
 
         String placeName = servletRequest.getParameter("placeName");
+        String aadhar = servletRequest.getParameter("aadhar");
+        long a_no =0;
+        if(aadhar!=null && aadhar!=""){
+            a_no = Long.parseLong(aadhar);
+        }
 
         String person = servletRequest.getParameter("person");
         int p_son = 0;
