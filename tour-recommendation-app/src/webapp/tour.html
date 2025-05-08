@@ -6,7 +6,7 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
   <style>
-    h1{ color:red
+    h1{ color:Green
     }
   </style>
 </head>
@@ -33,19 +33,21 @@
 </nav>
 
 <div align="center">
-  <h1 align="center"> Welcome to Tour Booking app</h1>
+  <div class="border border-success p-2 border-opacity-10">
+    <span class="border border-warning">
+  <h1 align="center"> Welcome to Tour Booking app😍</h1>
   <form action="submit">
-    <fieldset>
-    Name : <input type="text" placeholder="Enter your Name" name="name"/><br><br>
-    Enter AadharNumber : <input type ="number" placeholder="Enter Aadhar Number" minlength=12 maxlength=12 name="aadhar"/><br><br>
-    ContactNumber : <input type="tel" placeholder="Enter your ContactNumber" name="number"/><br><br>
-    PlaceName : <input type ="text" placeholder="Enter place Name" name ="placeName"/><br><br>
-    Number Of person : <input type="number" placeholder="Enter Number of person" name = "person"/><br><br>
-    Cost : <input type = "number" placeholder="Enter cost" name = "Cost"/><br><br>
-    <input type="submit" value="Book Ticket">
-    </fieldset>
-</form>
-</div>
+    Name : <input type="text" placeholder="Enter your Name" name="name" required/><br><br>
+    Enter AadharNumber : <input type ="text" id="aadhar" placeholder="Enter Aadhar Number"name="aadhar" minlength=12 maxlength=12 required /><br><br>
+    ContactNumber : <input type="tel" placeholder="Enter your ContactNumber" name="number" required/><br><br>
+    PlaceName : <input type ="text" placeholder="Enter place Name" name ="placeName" required/><br><br>
+    Number Of person : <input type="number" placeholder="Enter Number of person" name = "person" required/><br><br>
+    Cost : <input type = "number" placeholder="Enter cost" name = "Cost" required/><br><br>
+    <input type="submit" value="Book Ticket👍">
 
+</form>
+      </span>
+</div>
+</div>
 </body>
 </html>
