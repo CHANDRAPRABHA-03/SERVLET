@@ -18,7 +18,7 @@ public class FeedbackServlet extends GenericServlet {
         String email = servletRequest.getParameter("email");
         String number = servletRequest.getParameter("number");
         String feedback = servletRequest.getParameter("feedback");
-        System.out.println("name:" +name+  "E-mail" +email+  "ContactNumber" +number+  "feedback"  +feedback);
+        System.out.println("name:"+name+" email:"+email+" number:"+number+" feedback:"+feedback);
 
         servletResponse.setContentType("text/html");
         PrintWriter writer = servletResponse.getWriter();
