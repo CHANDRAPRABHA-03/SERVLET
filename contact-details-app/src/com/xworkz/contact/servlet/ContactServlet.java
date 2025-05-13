@@ -14,7 +14,7 @@ public class ContactServlet extends GenericServlet {
 
     @Override
     public void service(ServletRequest servletRequest, ServletResponse servletResponse) throws ServletException, IOException {
-        System.out.println("Running appointment servlet");
+        System.out.println("Running appointment servlet!!");
         String fname = servletRequest.getParameter("fname");
         String lname = servletRequest.getParameter("lname");
         String message = servletRequest.getParameter("message");
