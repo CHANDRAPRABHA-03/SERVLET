@@ -22,17 +22,31 @@ public class AppointmentServlet extends GenericServlet {
         String sickness = servletRequest.getParameter("sickness");
         String mobileno = servletRequest.getParameter("mobileno");
 
+        System.out.println("Running appointment servlet");
+        String firstname = servletRequest.getParameter("firstname");
+        String lastname = servletRequest.getParameter("lastname");
+        String message = servletRequest.getParameter("message");
+        String mail = servletRequest.getParameter("mail");
+
         servletResponse.setContentType("text/html");
         PrintWriter Writer = servletResponse.getWriter();
-        Writer.println("<h1>Details of your Appointment</h1>");
-        Writer.println("First Name :"+fname+"<br>");
-        Writer.println("Last Name :"+lname +"<br>");
-        Writer.println("Email :"+email+"<br>");
-        Writer.println("age :"+age+"<br>");
-        Writer.println("Address :"+address+"<br>");
-        Writer.println("Gender :"+gender+"<br>");
-        Writer.println("Sickness :"+sickness+"<br>");
-        Writer.println("Mobile Number :"+mobileno+"<br>");
+        Writer.println("<h1>Your Contact Details</h1>");
+        Writer.println("First Name :"+firstname+"<br>");
+        Writer.println("Last Name :"+lastname +"<br>");
+        Writer.println("Email :"+mail+"<br>");
+        Writer.println("Message :"+message);
+
+        servletResponse.setContentType("text/html");
+        PrintWriter writer = servletResponse.getWriter();
+        writer.println("<h1>Details of your Appointment</h1>");
+        writer.println("First Name :"+fname+"<br>");
+        writer.println("Last Name :"+lname +"<br>");
+        writer.println("Email :"+email+"<br>");
+        writer.println("age :"+age+"<br>");
+        writer.println("Address :"+address+"<br>");
+        writer.println("Gender :"+gender+"<br>");
+        writer.println("Sickness :"+sickness+"<br>");
+        writer.println("Mobile Number :"+mobileno+"<br>");
 
     }
 }
