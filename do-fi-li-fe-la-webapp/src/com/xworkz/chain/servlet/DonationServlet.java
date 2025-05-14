@@ -18,7 +18,8 @@ public class DonationServlet extends GenericServlet {
         String name = servletRequest.getParameter("name");
         String mail = servletRequest.getParameter("email");
         String mobile = servletRequest.getParameter("mobile");
-        String
+        String address = servletRequest.getParameter("address");
+        String causes = servletRequest.getParameter("cause");
 
         System.out.println("Using requestDispatcher to forward the req and res to another jsp/servlet");
         RequestDispatcher requestDispatcher = servletRequest.getRequestDispatcher("donation.jsp");
