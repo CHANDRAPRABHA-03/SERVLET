@@ -1,12 +1,9 @@
 package com.xworkz.donation.servlet;
 
-import javax.servlet.GenericServlet;
-import javax.servlet.ServletException;
-import javax.servlet.ServletRequest;
-import javax.servlet.ServletResponse;
+import javax.servlet.*;
 import javax.servlet.annotation.WebServlet;
 import java.io.IOException;
-import java.io.PrintWriter;
+
 @WebServlet(urlPatterns = "/click")
 public class DonationServlet extends GenericServlet {
     @Override
@@ -22,8 +19,13 @@ public class DonationServlet extends GenericServlet {
         System.out.println("Cause "+cause);
         System.out.println("Amount "+amount);
         System.out.println("Email "+email);
+
+        System.out.println("Using request dispatcher to forward the req and res to another jsp/servlet");
+        //abstraction: Servlet Chaining
+        RequestDispatcher requestDispatcher = servletRequest.getRequestDispatcher("donation.jsp");
+        //jsp->generate servlet->service(servletRequest,servletResponse)==>write HTML;
+        requestDispatcher.forward(servletRequest,servletResponse);
         servletResponse.setContentType("text/html");
-        PrintWriter writer =servletResponse.getWriter();
-        writer.println("<h1>Thanks for Donate<h1>");
+
     }
 }
