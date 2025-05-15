@@ -30,7 +30,7 @@
 <div>
     <div align="center">
         <h1 align="center">Welcome you for Donar page!!</h1><br>
-        <form action="mix" method="post">
+        <form action="mix" method="get">
             FirstName <input type="text" placeholder="Enter your FirstName" name="fname"/><br><br>
             LastName <input type="text" placeholder="Enter your LastName" name="lname" maxlength="3" minlength="1" required/><br><br>
             Email <input type="email" placeholder="Enter your email" name="email"/><br><br>
