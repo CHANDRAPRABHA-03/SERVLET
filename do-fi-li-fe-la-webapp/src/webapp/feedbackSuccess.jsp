@@ -30,7 +30,7 @@
 <div>
     <div align="center">
         <h1 align="center">Welcome you for Feedback page!!</h1>
-        <form action="mix" method="post">
+        <form action="mix" method="get">
             Name <input type="text" placeholder="Enter your Name" name="name"/><br><br>
             Email <input type="email" placeholder="Enter your email" name="email"/><br><br>
             MobileNo <input type = "mobile" placeholder="Enter Your MobileNo" name="mobile"/><br><br>
