@@ -30,12 +30,11 @@
 <div>
     <div align="center">
         <h1 align="center">Welcome you for FireDetails page!!</h1><br>
-        <form action="mix" method="post">
+        <form action="fire" method="get">
             Name <input type="text" placeholder="Enter your Name" name="name"/><br><br>
             Email <input type="email" placeholder="Enter your email" name="email"/><br><br>
             MobileNo <input type = "mobile" placeholder="Enter Your MobileNo" name="mobile"/><br><br>
             Address <input type="address" placeholder="Enter your address" name="address"/><br><br>
-            Cause <input type="text" placeholder="Enter type of Cause" name="cause"/><br><br>
             <input type="submit" placeholder="submit" value="submit"/> <br><br>
 
         </form>
