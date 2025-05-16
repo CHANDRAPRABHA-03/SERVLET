@@ -15,7 +15,7 @@
         <a class="nav-link" href="index.jsp">Home</a>
 </nav>
 <div>
-    <form action="lab" method="get">
+    <form action="lab" method="post">
         <fieldset aria-activedescendant="center" >
             <legend>Laboratory Section</legend>
             <div class="mb-3">
