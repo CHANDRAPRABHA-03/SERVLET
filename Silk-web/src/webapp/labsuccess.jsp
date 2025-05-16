@@ -15,6 +15,7 @@
         <a class="nav-link" href="index.jsp">Home</a>
 </nav>
 <div>
+
     <h1>Thank You </h1>
 </div>
 </body>
