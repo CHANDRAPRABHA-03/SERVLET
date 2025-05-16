@@ -15,7 +15,7 @@
         <a class="nav-link" href="laboratory.jsp">Laboratory</a>
     </li>
     <li class="nav-item">
-        <a class="nav-link" href="#">Link</a>
+        <a class="nav-link" href="feedback.jsp">Feedback</a>
     </li>
     <li class="nav-item">
         <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
