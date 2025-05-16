@@ -15,8 +15,12 @@
         <a class="nav-link" href="index.jsp">Home</a>
 </nav>
 <div>
-
+ <div align="center">
     <h1>Thank You </h1>
+     <h2>${name}</h2>
+     <p><strong>Name:</strong>${name}</p>
+     <p><strong>MobileNo:</strong>${mobile}</p>
+ </div>
 </div>
 </body>
 </html>
