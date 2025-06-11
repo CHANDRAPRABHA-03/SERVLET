@@ -1,12 +1,10 @@
 package com.xworkz.tour.servlet.dto;
 
-import jdk.nashorn.internal.objects.annotations.Setter;
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.ToString;
+
+import lombok.*;
 
 @Getter
+@Setter
 @ToString
 @AllArgsConstructor
 @NoArgsConstructor
