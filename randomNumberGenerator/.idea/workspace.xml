@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="09db1c37-3015-4aa1-8c93-c00d254362c2" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../backupExceptions/src/com/xworkz/exceptn/Exception/BackupException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../backupExceptions/src/com/xworkz/exceptn/Exception/ChairException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../backupExceptions/src/com/xworkz/exceptn/Exception/ChickenException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../backupExceptions/src/com/xworkz/exceptn/Exception/HealthExceptions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../backupExceptions/src/com/xworkz/exceptn/Exception/JobException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../backupExceptions/src/com/xworkz/exceptn/Exception/MangoException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../backupExceptions/src/com/xworkz/exceptn/Exception/Meat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../backupExceptions/src/com/xworkz/exceptn/Exception/MovieException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../backupExceptions/src/com/xworkz/exceptn/Exception/RainException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../backupExceptions/src/com/xworkz/exceptn/Exception/TaxException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../backupExceptions/src/com/xworkz/exceptn/exceptn/Runner/BackUpRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../backupExceptions/src/com/xworkz/exceptn/exceptn/Runner/ChairRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../backupExceptions/src/com/xworkz/exceptn/exceptn/Runner/ChickenRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../backupExceptions/src/com/xworkz/exceptn/exceptn/Runner/JobRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../backupExceptions/src/com/xworkz/exceptn/exceptn/Runner/MangoRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../backupExceptions/src/com/xworkz/exceptn/exceptn/Runner/MeatRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../backupExceptions/src/com/xworkz/exceptn/exceptn/Runner/MovieRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../backupExceptions/src/com/xworkz/exceptn/exceptn/Runner/RainRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../backupExceptions/src/com/xworkz/exceptn/exceptn/Runner/Runner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../backupExceptions/src/com/xworkz/exceptn/exceptn/Runner/TaxRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../backupcustmException/src/com/xworkz/excptn/exception/RuntimeExceptions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../backupcustmException/src/com/xworkz/excptn/exception/ShowExceptions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../backupcustmException/src/com/xworkz/excptn/runner/Runner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../backupcustmException/src/com/xworkz/excptn/runner/RuntimeEx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../backupcustmException/src/com/xworkz/excptn/runner/RuntimeRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../furshops/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jdbc/src/com/jdbc/jc/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tour-recommendation-app/src/com/xworkz/tour/servlet/StampedCaseServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tour-recommendation-app/src/com/xworkz/tour/servlet/service/StampedCaseService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../weather-website/src/Webapp/Weather.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../weather-website/src/Webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../weather-website/src/com/xworkz/weather/dto/WeatherDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../weather-website/src/com/xworkz/weather/repository/WeatherRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../weather-website/src/com/xworkz/weather/repository/WeatherRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../weather-website/src/com/xworkz/weather/service/WeatherService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../weather-website/src/com/xworkz/weather/service/WeatherServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../weather-website/src/com/xworkz/weather/servlet/WeatherServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../furshops/src/com/xworkz/furshop/servlet/FurnitureServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../furshops/src/com/xworkz/furshop/servlet/FurnitureServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../furshops/src/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../furshops/src/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tour-recommendation-app/src/com/xworkz/tour/servlet/FeedbackServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tour-recommendation-app/src/com/xworkz/tour/servlet/dto/FeedbackDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/../tour-recommendation-app/src/com/xworkz/tour/servlet/dto/StampedCaseDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tour-recommendation-app/src/com/xworkz/tour/servlet/repository/FeedbackRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../tour-recommendation-app/src/com/xworkz/tour/servlet/repository/StampedRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tour-recommendation-app/src/com/xworkz/tour/servlet/repository/FeedbackRepoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../tour-recommendation-app/src/com/xworkz/tour/servlet/repository/StampedCaseRepositoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tour-recommendation-app/src/com/xworkz/tour/servlet/service/FeedbackService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tour-recommendation-app/src/com/xworkz/tour/servlet/service/FeedbackServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../tour-recommendation-app/src/com/xworkz/tour/servlet/service/StampedCaseServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tour-recommendation-app/src/webapp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../tour-recommendation-app/src/webapp/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tour-recommendation-app/tour-booking-app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../tour-recommendation-app/tour-booking-app.iml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 6
+}]]></component>
+  <component name="ProjectId" id="2yOfWLIK7AnFsifRzmih2xoJrcr" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "kotlin-language-version-configured": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="09db1c37-3015-4aa1-8c93-c00d254362c2" name="Changes" comment="" />
+      <created>1749710577050</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1749710577050</updated>
+    </task>
+    <servers />
+  </component>
+</project>
