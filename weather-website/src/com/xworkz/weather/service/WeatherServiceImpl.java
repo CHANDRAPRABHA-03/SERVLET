@@ -20,8 +20,6 @@ public class WeatherServiceImpl implements WeatherService{
                 System.out.println("Invalid Weather");
             }
 
-
-
             if (weatherDto.getMaxTemp() == null || weatherDto.getMaxTemp().isEmpty()) {
                 System.out.println("Max Temp is required");
             }

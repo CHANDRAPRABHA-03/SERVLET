@@ -12,7 +12,6 @@ import java.time.LocalDateTime;
 public class WeatherDto {
     private String placeName;
     private String weather;
-
     private String maxTemp;
     private String cloudy;
     private String raining;
