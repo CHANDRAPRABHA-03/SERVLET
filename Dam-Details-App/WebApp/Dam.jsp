@@ -37,7 +37,7 @@
                 <option>Hudgur</option>
                 <option>Kargal</option>
                 <option>Karanja</option>
-                <option>KRS (Krishna Raja Sagara)</option>
+                <option>KRS(Krishna Raja Sagara)</option>
                 <option>Lakkavalli</option>
                 <option>Mari Kanive</option>
                 <option>Markonahalli</option>
