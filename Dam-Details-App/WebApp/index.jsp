@@ -8,6 +8,7 @@
             integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
     <style>
+        <script !src="">
         body {
             background-color: #e6f0ff; /* Light blue background */
         }
@@ -21,6 +22,7 @@
             justify-content: center;
             align-items: center;
         }
+        </script>
     </style>
 </head>
 

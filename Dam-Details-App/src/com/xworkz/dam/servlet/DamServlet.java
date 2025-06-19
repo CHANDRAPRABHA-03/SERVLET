@@ -21,7 +21,6 @@ protected void doPost(HttpServletRequest req, HttpServletResponse res)throws Ser
 String name = req.getParameter("damName");
 String location = req.getParameter("location");
 String district = req.getParameter("district");
-//String zip = req.getParameter("zip");
 String constructionDate = req.getParameter("constructionDate");
 String capacity = req.getParameter("capacity");
 String hydroElectric = req.getParameter("hydroElectric");
