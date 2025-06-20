@@ -117,22 +117,22 @@
     <!-- Birthday Registration Form -->
     <form action="Birthday" method="post">
         <label>Name:</label>
-        <input type="text" name="person_name" required>
+        <input type="text" name="person_name"  pattern="[a-zA-Z0-9 ]*" title="No special characters allowed" required>
 
         <label>Date:</label>
         <input type="date" name="event_date" required>
 
         <label>Location:</label>
-        <input type="text" name="location" required>
+        <input type="text" name="location" pattern="[a-zA-Z0-9 ]*" title="No special characters allowed" required>
 
         <label>Contact:</label>
-        <input type="tel" name="contact" required pattern="[0-9]{10}" title="Enter 10-digit number">
+        <input type="tel" name="contact" required pattern="[0-9]{10}" title="Enter 10-digit number" maxlength="10" minlength="10">
 
         <label>Relation:</label>
-        <input type="text" name="relation" placeholder="E.g., Friend, Sister" required>
+        <input type="text" name="relation" placeholder="E.g., Friend, Sister" pattern="[a-zA-Z0-9 ]*" title="No special characters allowed"  required>
 
         <label>Cake Info:</label>
-        <input type="text" name="cake_info" placeholder="E.g., Chocolate 2kg Eggless" required>
+        <input type="text" name="cake_info" placeholder="E.g., Chocolate 2kg Eggless" pattern="[a-zA-Z0-9 ]*" title="No special characters allowed" required>
 
         <input type="submit" value="Register" class="submit-btn">
     </form>
